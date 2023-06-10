@@ -58,3 +58,10 @@ document.querySelectorAll(".nav-link").forEach((link) =>
     navMenu.classList.remove("current");
   })
 );
+
+document.querySelectorAll('.project__item').forEach(item => {
+    item.addEventListener('click', event => {
+      window.location = item.querySelector('a.project__link').href;
+    });
+  });
+  

@@ -432,6 +432,7 @@ body {
     background-color: var(--project-card-bg);
     box-shadow: var(--box-shadow);
     border-radius: 10px;
+    cursor: pointer;
 }
 .project__colum {
     padding: 15px;
