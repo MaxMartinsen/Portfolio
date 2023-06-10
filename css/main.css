@@ -13,6 +13,8 @@
     --black-border: #26292D;
     --white: #fff;
     --blue: #007ced;
+    --lightbrown:#444;
+    --whiteambient:#e5e5e5;
 
     --text-color: var(--black);
 
@@ -182,12 +184,12 @@ body {
   width: 1.5rem;
   height: 3px;
   display: block;
-  color: #fff;
+  color: var(--white);
   padding: 0;
   margin: 6px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .bar:nth-child(1) {
@@ -267,7 +269,7 @@ body {
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
-    border: 10px solid #444;
+    border: 10px solid var(--lightbrown);
     box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
 }
 /* Animation */
@@ -353,21 +355,21 @@ body {
     flex-direction: column;
 }
 .subtitle {
-    color: #e5e5e5;
+    color: var(--whiteambient);
     font-size: 16px;
     font-weight: 700;
 }
 .subtitle span {
-    color: #007ced;
+    color: var(--blue);
     font-size: 18px;
 }
 .title {
-    color: #007ced;
+    color:var(--blue);
     font-weight: 700;
     font-size: 3rem;
 }
 .text {
-    color: #e5e5e5;
+    color: var(--whiteambient);
 }
 .hero__group {
     margin: 45px 0;
@@ -377,22 +379,22 @@ body {
     gap: 7px;
 }
 .btn {
-    border-color: #d5d5d5;
-    color: #fff;
-    background-color: #333;
+    border-color: var(--whiteambient);
+    color: var(--white);
+    background-color: var(--lightbrown);
     padding: 12px 25px;
     margin: 5px 0px;
     border-radius: 30px;
-    border: 2px solid #e5e5e5;
+    border: 2px solid var(--whiteambient);
 }
 .active {
-    border-color: #007ced;
+    border-color: var(--blue);
 }
 .hero__group-btn .btn:hover {
-    background-color: #007ced;
+    background-color: var(--blue);
 }
 .hero__group-btn .active:hover {
-    border-color: #d5d5d5;
+    border-color: var(--whiteambient);
 }
 .footer__social,
 .hero__social-icons {
@@ -402,12 +404,12 @@ body {
 }
 .footer__social i::before,
 .hero__social-icons i::before {
-    color: #e5e5e5;
+    color: var(--whiteambient);
     transition: 0.5s;
 }
 .footer__social i:hover::before,
 .hero__social-icons i:hover::before {
-    color: #007ced;
+    color: var(--blue);
     transform: rotate(360deg);
 }
 
@@ -459,7 +461,7 @@ body {
     transition: 0.5s;
 }
 .project__icon i:hover {
-    color: #007ced;
+    color: var(--blue);
     transform: rotate(360deg);
 }
 .project__image {
@@ -533,7 +535,7 @@ body {
     color: var(--project-card-text);
 }
 .details__links i:hover {
-    color: #007ced;
+    color: var(--blue);
 }
 .details__links i::before {
     margin-right: 10px;
@@ -678,7 +680,7 @@ body {
         transition: 0.2s ease;
       }
       .current span {
-        background-color: #007ced;
+        background-color: var(--blue);
       }
 
     /* General */
