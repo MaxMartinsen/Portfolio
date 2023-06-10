@@ -449,7 +449,7 @@ body {
 .project__description p {
     color: var(--project-card-text);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
 }
 .project__icon {
     display: flex;
