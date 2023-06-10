@@ -554,7 +554,7 @@ body {
 }
 
 .content-list a {
-    color: var(--accent);
+    color: var(--header-text);
     font-weight: 500;
 }
 
