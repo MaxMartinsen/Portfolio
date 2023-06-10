@@ -65,6 +65,7 @@ address {
 
 ins {
 	display: none;
+	visibility: hidden;
 }
 
 /* Form */
