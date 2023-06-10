@@ -63,6 +63,10 @@ address {
   font-style: normal;
 }
 
+ins {
+	display: none;
+}
+
 /* Form */
 
 input, textarea, button, select {
