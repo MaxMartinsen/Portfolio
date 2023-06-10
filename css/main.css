@@ -555,7 +555,7 @@ body {
 
 .content-list a {
     color: var(--accent);
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .content-list__item {
