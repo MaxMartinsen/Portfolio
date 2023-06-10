@@ -702,6 +702,9 @@ body {
     .project__title {
         font-size: 22px;
     }
+    .project__description p {
+        font-size: 16px;
+    }
 
     /* Content List */
 
