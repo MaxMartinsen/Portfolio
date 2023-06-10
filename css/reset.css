@@ -63,7 +63,7 @@ address {
   font-style: normal;
 }
 
-ins {
+.ins {
 	display: none;
 	visibility: hidden;
 }
